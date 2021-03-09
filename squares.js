@@ -17,7 +17,7 @@ btn.onclick = function () {
     newSquare.style.height = '100px';
     newSquare.style.width = '100px';
     newSquare.style.backgroundColor = '#F00';
-    newSquare.style.marginBottom = '10px';
+    newSquare.style.marginRight = '10px';
 
     var containerElement = document.querySelector('#container');
     containerElement.appendChild(newSquare);
